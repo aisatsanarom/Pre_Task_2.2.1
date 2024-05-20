@@ -73,4 +73,14 @@ public class User {
    public void setCar(Car car) {
       this.car = car;
    }
+
+   @Override
+   public String toString() {
+      return "User{" +
+              "firstName='" + firstName + '\'' +
+              ", lastName='" + lastName + '\'' +
+              ", email='" + email + '\'' +
+              ", car=" + car +
+              '}';
+   }
 }
